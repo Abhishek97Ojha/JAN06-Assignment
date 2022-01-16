@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+}
+
+body {
+    display: block;
+    text-align: center;
+    background-image: linear-gradient(red, blue);
+}
+
+section {
+    background-color: white;
+    border: 2px solid black;
+    margin: 10px auto;
+    width: 210mm;
+    height: 297mm;
+    box-shadow: 3px 3px 0px 0px;
+}
+
+main {
+    border: 2px solid purple;
+    margin: 100px 100px 0px 100px;
+    border-top: 2px solid pink;
+    border-bottom: 2px solid pink;
+    height: 240mm;
+    overflow: hidden;
+}
+
+.story {
+    text-align: justify;
+    margin-top: 100px;
+}
+
+.story::first-letter {
+    font-size: 40px;
+}
+
+h4,
+h2,
+h3 {
+    text-align: center;
+}
